@@ -1,1 +1,2 @@
 # Go-practice
+This repository contains a collection of Go programming exercises I've worked on to learn and practice the language. Each exercise focuses on different aspects of Go, helping to build a comprehensive understanding of its features and capabilities.
