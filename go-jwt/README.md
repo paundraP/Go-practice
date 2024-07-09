@@ -1,0 +1,2 @@
+# Go JWT Auth with Go-Gonic
+In this training session, I noticed that it took much longer than the previous training session. However, I learnt a lot from it. I explored concepts like JWT (ref: https://youtu.be/_w9ixlwUsgg?si=l6Bvi9EDbDJOa2Z5), understood the Gin Gonic framework, learned how to use MongoDB, and improved my project structure for better organisation. Because in my learning process, I prefer to directly learn a concept and slowly learn some sub-concepts within it.
