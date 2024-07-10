@@ -3,7 +3,6 @@ package main
 import (
 	"os"
 
-	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
 	routes "github.com/paundraP/practice/go-jwt/routes"
 )
@@ -17,13 +16,6 @@ func main() {
 	router := gin.New()
 	router.Use(gin.Logger())
 
-	router.Use(cors.New(cors.Config{
-		AllowOrigins:     []string{"http://localhost:8080"}, // adjust as needed
-		AllowMethods:     []string{"GET", "POST", "PUT", "DELETE", "OPTIONS"},
-		AllowHeaders:     []string{"Origin", "Content-Type", "Authorization"},
-		ExposeHeaders:    []string{"Content-Length"},
-		AllowCredentials: true,
-	}))
 	routes.AuthRoutes(router)
 	routes.UserRoutes(router)
 
