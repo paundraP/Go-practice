@@ -3,22 +3,28 @@ Learn how to connect Go with Postgres (and also learning Postgres, it took some 
 
 ## Working in postman
 **Adding stock**
-<a href ="" target="blank"><img align="center" src="src/addstock.png" height="100" /> </a>
+<a href ="" target="blank"><img align="center" src="src/addstock.png" height="400" /> </a>
 
 **Get All stock**
-<a href ="" target="blank"><img align="center" src="src/getallstock.png" height="100" /> </a>
+
+<a href ="" target="blank"><img align="center" src="src/getallstock.png" height="400" /> </a>
 
 **Get stock by Id**
-<a href ="" target="blank"><img align="center" src="src/getstockbyid.png" height="100" /> </a>
+
+<a href ="" target="blank"><img align="center" src="src/getstockbyid.png" height="400" /> </a>
 
 **Update stock**
-<a href ="" target="blank"><img align="center" src="src/updatestock.png" height="100" /> </a>
+
+<a href ="" target="blank"><img align="center" src="src/updatestock.png" height="400" /> </a>
 
 **Delete stock**
-<a href ="" target="blank"><img align="center" src="src/deletestock.png" height="100" /> </a>
+
+<a href ="" target="blank"><img align="center" src="src/deletestock.png" height="400" /> </a>
 
 **Database**
-<a href ="" target="blank"><img align="center" src="src/dbinterface.png" height="100" /> </a>
+
+<a href ="" target="blank"><img align="center" src="src/dbinterface.png" height="400" /> </a>
+
 Table format database :
 ```
 CREATE TABLE stocks (
